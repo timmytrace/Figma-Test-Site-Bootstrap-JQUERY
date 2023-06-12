@@ -863,3 +863,8 @@ button:focus, input:focus {
     background: #ced4da;
 }
 
+#map {
+	height: 400px;
+	width: 50%;
+	}
+

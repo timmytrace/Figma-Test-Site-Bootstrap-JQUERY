@@ -1,0 +1,763 @@
+/*BEGINNING FOR STYLE SYNTAX FOR POST PAGE*/
+
+/*TEXT ASSETS*/
+.txt {
+    position: absolute;
+    width: 89px;
+    height: 22px;
+    left: 1015px;
+    top: 15px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    /* identical to box height, or 92% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.txt1 {
+    position: absolute;
+    width: 138px;
+    height: 22px;
+    left: 1210px;
+    top: 14px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    /* identical to box height, or 92% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.txt2 {
+    position: absolute;
+    width: 93px;
+    height: 22px;
+    left: 1438px;
+    top: 14px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    /* identical to box height, or 92% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.txt3 {
+    position: absolute;
+    width: 89px;
+    height: 22px;
+    left: 1012px;
+    top: 647px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    /* identical to box height, or 92% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.txt4 {
+    position: absolute;
+    width: 151px;
+    height: 22px;
+    left: 1201px;
+    top: 646px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    /* identical to box height, or 92% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.txt5 {
+    position: absolute;
+    width: 107px;
+    height: 22px;
+    left: 1428px;
+    top: 646px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    /* identical to box height, or 92% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.txt6 {
+    position: absolute;
+    width: 76px;
+    height: 22px;
+    left: 1018px;
+    top: 1271px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    /* identical to box height, or 92% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.txt7 {
+    position: absolute;
+    width: 151px;
+    height: 22px;
+    left: 1201px;
+    top: 1270px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    /* identical to box height, or 92% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.txt8 {
+    position: absolute;
+    width: 93px;
+    height: 22px;
+    left: 1435px;
+    top: 1270px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    /* identical to box height, or 92% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*sym Assets*/
+
+.sym1 {
+    position: absolute;
+    width: 44px;
+    height: 40.68px;
+    left: 960px;
+    top: 1px;
+}
+
+.sym2 {
+    position: absolute;
+    width: 44px;
+    height: 44.13px;
+    left: 1152px;
+    top: 1px;
+
+}
+
+.sym3 {
+    position: absolute;
+    width: 43.55px;
+    height: 43.56px;
+    left: 1384px;
+    top: 1px;
+}
+
+
+.sym4 {
+    position: absolute;
+    width: 589px;
+    height: 514px;
+    left: 957px;
+    top: -533px;
+
+    background: url(f8068760c9c10bfd-1200x675);
+}
+
+.sym5 {
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    left: 853px;
+    top: -533px;
+
+    background: url(mgid_arc_imageassetref_shared);
+    border: 5px solid #000000;
+}
+
+.sym6 {
+    position: absolute;
+    width: 44px;
+    height: 40.68px;
+    left: 957px;
+    top: 633px;
+}
+
+.sym7 {
+    position: absolute;
+    width: 44px;
+    height: 44.13px;
+    left: 1149px;
+    top: 633px;
+}
+
+.sym8 {
+    position: absolute;
+    width: 43.55px;
+    height: 43.56px;
+    left: 1381px;
+    top: 633px;
+}
+
+.sym9 {
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    left: 853px;
+    top: 100px;
+
+    background: url(tumblr_dec60ca684629777ae328188a7d7ba7d_c69b9083_540.png);
+
+}
+
+.sym10 {
+    position: absolute;
+    width: 589px;
+    height: 514px;
+    left: 957px;
+    top: 100px;
+
+    background: url(02-pib-dm-mobile-banner-1080x745-km-f01-061422-62a9f2d372f3a-1.jpg);
+}
+
+.sym11 {
+    position: absolute;
+    width: 44px;
+    height: 40.68px;
+    left: 957px;
+    top: 1257px;
+}
+
+.sym12 {
+    position: absolute;
+    width: 44px;
+    height: 44.13px;
+    left: 1149px;
+    top: 1257px;
+}
+
+.sym13 {
+    position: absolute;
+    width: 43.55px;
+    height: 43.56px;
+    left: 1381px;
+    top: 1257px;
+}
+
+.sym14 {
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    left: 853px;
+    top: 740px;
+
+    background: url(8941408fe5575d61409cd1af209445e3);
+}
+
+.sym15 {
+    position: absolute;
+    width: 589px;
+    height: 514px;
+    left: 957px;
+    top: 724px;
+
+    background: url(mvcjv6kx2ye81.jpg);
+}
+
+/*ENDING FOR STYLE SYNTAX FOR POST PAGE*/
+
+/*BEGINNING OF STYLE SYNTAX FOR FRIENDS LIST PAGE*/
+
+/*Assets for Menu Bar*/
+
+nav {
+    background-color: #FBE9FF;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 300px;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+main {
+    background-color: #FFF;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    margin-bottom: 15px;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+.banner {
+    width: 170px;
+    height: 40px;
+}
+
+nav li img {
+    height: 30px;
+    width: 30px;
+}
+
+li {
+    font-family: 'roboto', bold;
+    font-size: 23px;
+}
+
+.posts {
+    width: 89px;
+    height: 22px;
+    left: 1015px;
+    top: 15px;
+}
+
+.figure {
+    position: absolute;
+    left: 850px;
+    top: 2px;
+}
+
+.figure1 {
+    position: absolute;
+    left: 850px;
+    top: 600px;
+}
+
+.figure2 {
+    position: absolute;
+    left: 850px;
+    top: 1200px;
+}
+
+/*Symbols Assets*/
+.like-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 1000px;
+    margin-top: 500px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.liked {
+    background-color: pink;
+}
+
+.like-btn-2 {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 1000px;
+    margin-top: 550px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.liked {
+    background-color: pink;
+}
+
+.like-btn-3 {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 1000px;
+    margin-top: 550px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.liked {
+    background-color: pink;
+}
+.comment-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .comments {
+    display: none;
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comments li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .comments li:last-child {
+    border-bottom: none;
+  }
+
+  .share-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+  }
+  
+  .share-btn:hover {
+    background-color: darkblue;
+  }
+ 
+/* .heart {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 25px;
+    top: 520px;
+}
+
+.like-container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .like-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .like-count {
+    margin-left: 5px;
+  }
+
+
+.comment {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 250px;
+    top: 520px;
+}
+
+.share {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 525px;
+    top: 520px;
+}
+*/
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  p {
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Profile-specific Styles */
+  /* Mario's Profile */
+  #mario-profile {
+    background-color: #ffcc00;
+    padding: 20px;
+  }
+  
+  /* Sven's Profile */
+  #sven-profile {
+    background-color: #66ccff;
+    padding: 20px;
+  }
+  
+  /* Finn's Profile */
+  #finn-profile {
+    background-color: #ff99cc;
+    padding: 20px;
+  }
+/*End of General Style*/
+.pic {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: -85px;
+    top: 5px;
+}
+
+.btn-group {
+    border-color: #FBE9FF;
+    position: fixed;
+    width: 30px;
+    height: 40px;
+    left: 1825px;
+    top: 5px;
+
+    font-family: 'Impact';
+}
+
+.drop-menu {
+    background-color: #FBE9FF;
+
+    font-family: 'Times New Roman';
+}
+
+.card {
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}
+
+.Card {
+    position: absolute;
+    left: 380px;
+    top: 0px;
+}
+
+.Cards {
+    position: absolute;
+    left: 750px;
+    top: 0px;
+
+}
+
+.Grid {
+    position: absolute;
+    width: 1036px;
+    height: 1019px;
+    left: 613px;
+    top: 20px;
+}
+
+.Boxes {
+    position: absolute;
+    width: 1017px;
+    height: 918px;
+    left: 731px;
+    top: 70px;
+}
+
+.D {
+    position: absolute;
+    width: 40px;
+    height: 22px;
+    left: 1507px;
+    top: 720px;
+
+    font-family: 'Berkshire Swash';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 22px;
+    /* identical to box height, or 46% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.home {
+    position: absolute;
+    width: 40px;
+    height: 22px;
+    left: 196px;
+    top: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 22px;
+    /* identical to box height, or 46% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.notes {
+    position: absolute;
+    width: 40px;
+    height: 22px;
+    left: 147px;
+    top: 352px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.mess {
+    position: absolute;
+    width: 40px;
+    height: 22px;
+    left: 173px;
+    top: 620px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.pro {
+    position: absolute;
+    width: 40px;
+    height: 22px;
+    left: 191px;
+    top: 867px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}

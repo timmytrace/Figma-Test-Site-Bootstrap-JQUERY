@@ -76,28 +76,27 @@ function pauseReels() {
 }
 
 function initMap() {
-  // Create a map object and specify the DOM element for display
+  // Create a map object and specify the center and zoom level
   var map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 40.7128, lng: -74.0060 }, // Specify the initial map center
-    zoom: 12 // Specify the initial zoom level
-  });
-}
-
-function initMap() {
-  // Specify the coordinates of the desired location
-  var myLatLng = {lat: 51.5074, lng: -0.1278};
-
-  // Create a new map instance
-  var map = new google.maps.Map(document.getElementById('map'), {
-    center: myLatLng,
+    center: { lat: 40.7128, lng: -74.0060 }, // Example: New York City
     zoom: 12
   });
 
-  // Add a marker to the map
+  // Create a marker and set its position
   var marker = new google.maps.Marker({
-    position: myLatLng,
+    position: { lat: 40.7128, lng: -74.0060 }, // Example: New York City
     map: map,
-    title: 'London'
+    title: 'User location'
+  });
+
+  // Add an info window to the marker
+  var infoWindow = new google.maps.InfoWindow({
+    content: 'Marker Content'
+  });
+
+  // Open the info window when the marker is clicked
+  marker.addListener('click', function() {
+    infoWindow.open(map, marker);
   });
 }
 
@@ -207,4 +206,5 @@ $(window).on('scroll',function(){
     $(".progress_bar").removeClass("progressbar_active");
   }
 });
+
 
