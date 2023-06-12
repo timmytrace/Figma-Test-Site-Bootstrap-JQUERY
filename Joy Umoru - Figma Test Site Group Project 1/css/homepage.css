@@ -1,0 +1,88 @@
+
+/* HomePage Carousel Styling */
+.d-block {
+    height: 500px;
+    width: 500px;
+}
+
+img.Login-Button {
+    width: 150px;
+    height: 30px;
+    margin: 50px 0 393px 6px;
+    object-fit: contain;}
+  
+    .Settings-Icon {
+      width: 25px;
+      height: 25px;
+      flex-grow: 0;
+      margin: 0 14px 0 0;
+      color: #242424;
+    }
+  
+    .Settings {
+      width: 112px;
+      height: 22px;
+      flex-grow: 0;
+      padding: 20% 20% 30% 70%;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.73;
+      letter-spacing: normal;
+      text-align: center;
+      color: #242424;
+    }
+  
+  img.like-comment-share {
+  position: absolute;
+  width: 35px;
+  height: 150px;
+  margin: 340px 800px 100px -230px;
+  }
+  
+  .Likes {
+    height: 22px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+  }
+    .Comments {
+      width: 138px;
+      height: 22px;
+      margin: 63px 6px 63px 93px;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.92;
+      letter-spacing: normal;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  
+  .thatgurl_joy {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #242424;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+  }
+  
+  
+  

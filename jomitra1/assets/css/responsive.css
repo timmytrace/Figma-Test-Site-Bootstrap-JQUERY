@@ -1,0 +1,313 @@
+@media all and (max-width: 1299px) {
+	.main_content {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.user_name {
+		padding-left: 25px;
+	}
+	.profile {
+		padding-right: 30px;
+	}
+	.friend_box {
+		padding-left: 30px;
+	}
+
+
+
+
+}
+
+@media all and (max-width: 1199px) {
+	.profile_box {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.profile {
+		padding-right: 0px;
+	}
+	.friend_box {
+		padding-left: 0px;
+		padding-top: 30px;
+	}
+	.gellary_gap {
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+	.overlay h1 {
+		font-size: 16px;
+	}
+	.overlay h3{
+		font-size: 13px;
+		padding: 7px 0px;
+	}
+	.overlay p{
+		font-size: 12px;
+	}
+	.login_area::after {
+		left: 0px;
+		width: 50%;
+	}
+
+
+}
+
+
+@media all and (max-width: 991px) {
+	.side_bar {
+		width: 100%;
+		height: auto;
+		position: relative;
+		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+		background: #FFF;
+	}
+	.side_bar.fixed{
+		position: fixed;
+	}
+	.side_bar > .logo {
+		padding: 25px 15px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.bar{
+		display: block;
+	}
+	.logo a {
+		font-size: 32px;
+	}
+	nav.menu {
+		width: 100%;
+		height: 100vh;
+		background: #FFF;
+		position: fixed;
+		left: -100%;
+		top: 88px;
+		transition: 0.3s;
+		z-index: 1;
+	}
+	nav.menu.show{
+		left: 0%;
+	}
+	.menu ul {
+		align-items: flex-start;
+		justify-content: flex-start;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.menu ul li{
+		padding: 0px 0px;
+	}
+	.menu ul li a {
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+		padding: 15px 15px;
+	}
+	.menu ul li a img {
+		margin-right: 15px;
+		margin-bottom: 0px;
+	}
+	.main_content {
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+		margin-left: 0;
+	}
+	.titles h1 {
+		font-size: 28px;	
+	}
+	.titles h3, .photo_gellary_head ul li a, .slider_discription h1{
+		font-size: 16px;
+	}
+	.photo_gellary_head ul li a img {
+		width: 25px;
+		height: 25px;
+	}
+	.slider_discription h3 {
+		font-size: 14px;
+	}
+	.slider_discription p {
+		font-size: 14px;
+	}
+
+
+
+
+
+
+}
+
+@media all and (max-width: 767px){
+	.btn_secondary, .btn_primary {
+		width: 100px;
+		height: 40px;
+	}
+	.friend_box ul li {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.friend_box ul li p, .btn_secondary, .btn_primary{
+		font-size: 14px;
+	}
+	.friend_box ul li button img, .btn_secondary > img, .btn_primary > img {
+		width: 25px;
+	}
+	.titles h1 {
+		font-size: 24px;
+	}
+	.titles h3, .photo_gellary_head ul li a, .slider_discription h1 {
+		font-size: 15px;
+	}
+	.doted {
+		padding: 7px;
+	}
+	.doted > span {
+		width: 5px;
+		height: 5px;
+	}
+	.gellary_gap {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.input_items > label, .input_items input[type="text"], .input_items input[type="password"], .input_items > ul > li > span, .input_items > ul > li > label, .input_items > p, .login_btn {
+		font-size: 15px;
+	}
+	.google_play, .google_play ul{
+		padding-top: 20px;
+	}
+	.google_play p {
+		font-size: 18px;
+	}
+	.login_box > form {
+		padding: 25px 15px;
+	}
+	.input_items > ul > li > input:checked + label::after {
+		top: 1px;
+	}
+}
+
+@media all and (max-width: 575px) {
+	.profile_box{
+		flex-wrap: wrap;
+	}
+	.user_photo {
+		width: 60px;
+		height: 75px;
+	}
+	.user_name h1 {
+		font-size: 24px;
+	}
+	.friend_box, .profile{
+		width: 100%;
+	}
+	.friend_box ul {
+		justify-content: space-between;
+	}
+	.friend_box ul li, .react_box ul li, .photo_gellary_head ul li{
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+	.btn_secondary, .btn_primary {
+		width: 90px;
+		height: 35px;
+		border-radius: 7px;
+	}
+	.friend_box ul li p, .btn_secondary, .btn_primary {
+		font-size: 12px;
+	}
+	.friend_box ul li button img, .btn_secondary > img, .btn_primary > img {
+		width: 20px;
+	}
+	.friend_box ul li p {
+		padding-top: 10px;
+	}
+	.react_box ul li .reaction {
+		width: 40px;
+		height: 30px;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	.react_box {
+		padding: 15px 15px;
+		border-radius: 7px;
+	}
+	.react_box ul li > span {
+		font-size: 12px;
+		margin-top: 7px;
+	}
+	.photo_gellary_head ul li a img {
+		width: 20px;
+		height: 20px;
+	}
+	.titles h3, .photo_gellary_head ul li a, .slider_discription h1 {
+		font-size: 13px;
+	}
+	.skill_wrapper, .slider_box{
+		margin-top: 20px;
+	}
+	.slider_area, .skill_area, .photo_gellary_area, .react_area{
+		padding: 30px 0px;
+	}
+	.photo_gellary_head ul {
+		justify-content: space-around;
+	}
+	.notification_box {
+		width: 280px;
+	}
+	.notification_box ul li a {
+		font-size: 15px;
+	}
+	.notification_box ul li a > i {
+		font-size: 20px;
+		width: 30px;
+	}
+	.logo a {
+		font-size: 25px;
+	}
+	nav.menu {
+		top: 80px;
+	}
+	.slider_box.owl-carousel.owl-theme .owl-dots .owl-dot span {
+		width: 15px;
+		height: 15px;
+	}
+	.google_play ul li a img {
+		width: 100px;
+	}
+	.input_items > ul > li > span, .input_items > ul > li > label, .input_items > p{
+		font-size: 13px;
+	}
+	.valid_input > span.toggle-password {
+		top: 10px;
+		font-size: 14px;
+		width: 20px;
+		height: 20px;
+	}
+	.login_box > form > .logo{
+		padding-bottom: 10px;
+	}
+	.input_gap {
+		margin-top: 20px;
+	}
+
+
+
+}
+
+@media all and (max-width: 500px) {
+	.doted {
+		width: 30px;
+		height: 30px;
+		padding: 5px;
+	}
+	.titles h1, .user_name h1{
+		font-size: 20px;
+	}
+	.gellary_gap {
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-top: 20px;
+	}
+}
